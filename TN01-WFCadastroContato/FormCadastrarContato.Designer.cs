@@ -28,18 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCadastrarContato));
             lblNome = new Label();
             lblSobrenome = new Label();
             txtNome = new TextBox();
             txtSobrenome = new TextBox();
-            label3 = new Label();
+            lblLinha1 = new Label();
             lblTelefone = new Label();
             mkdTelefone = new MaskedTextBox();
             gbxTipoTelefone = new GroupBox();
             rdbComercial = new RadioButton();
             rdbPessoal = new RadioButton();
             rdbRecado = new RadioButton();
-            label5 = new Label();
+            lbllinha2 = new Label();
             lblEmail = new Label();
             txtEmail = new TextBox();
             btnVoltar = new Button();
@@ -79,13 +80,13 @@
             txtSobrenome.Size = new Size(159, 23);
             txtSobrenome.TabIndex = 1;
             // 
-            // label3
+            // lblLinha1
             // 
-            label3.BorderStyle = BorderStyle.Fixed3D;
-            label3.Location = new Point(27, 97);
-            label3.Name = "label3";
-            label3.Size = new Size(400, 1);
-            label3.TabIndex = 4;
+            lblLinha1.BorderStyle = BorderStyle.Fixed3D;
+            lblLinha1.Location = new Point(27, 97);
+            lblLinha1.Name = "lblLinha1";
+            lblLinha1.Size = new Size(400, 1);
+            lblLinha1.TabIndex = 4;
             // 
             // lblTelefone
             // 
@@ -150,13 +151,13 @@
             rdbRecado.Text = "Recado";
             rdbRecado.UseVisualStyleBackColor = true;
             // 
-            // label5
+            // lbllinha2
             // 
-            label5.BorderStyle = BorderStyle.Fixed3D;
-            label5.Location = new Point(27, 207);
-            label5.Name = "label5";
-            label5.Size = new Size(400, 1);
-            label5.TabIndex = 9;
+            lbllinha2.BorderStyle = BorderStyle.Fixed3D;
+            lbllinha2.Location = new Point(27, 207);
+            lbllinha2.Name = "lbllinha2";
+            lbllinha2.Size = new Size(400, 1);
+            lbllinha2.TabIndex = 9;
             // 
             // lblEmail
             // 
@@ -176,9 +177,9 @@
             // 
             // btnVoltar
             // 
-            btnVoltar.Location = new Point(267, 329);
+            btnVoltar.Location = new Point(214, 329);
             btnVoltar.Name = "btnVoltar";
-            btnVoltar.Size = new Size(75, 23);
+            btnVoltar.Size = new Size(98, 39);
             btnVoltar.TabIndex = 7;
             btnVoltar.Text = "Voltar";
             btnVoltar.UseVisualStyleBackColor = true;
@@ -186,11 +187,13 @@
             // 
             // btnSalvar
             // 
-            btnSalvar.Location = new Point(352, 329);
+            btnSalvar.Image = (Image)resources.GetObject("btnSalvar.Image");
+            btnSalvar.Location = new Point(329, 329);
             btnSalvar.Name = "btnSalvar";
-            btnSalvar.Size = new Size(75, 23);
+            btnSalvar.Size = new Size(98, 39);
             btnSalvar.TabIndex = 6;
             btnSalvar.Text = "Salvar";
+            btnSalvar.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnSalvar.UseVisualStyleBackColor = true;
             btnSalvar.Click += btnSalvar_Click;
             // 
@@ -203,18 +206,20 @@
             Controls.Add(btnVoltar);
             Controls.Add(txtEmail);
             Controls.Add(lblEmail);
-            Controls.Add(label5);
+            Controls.Add(lbllinha2);
             Controls.Add(gbxTipoTelefone);
             Controls.Add(mkdTelefone);
             Controls.Add(lblTelefone);
-            Controls.Add(label3);
+            Controls.Add(lblLinha1);
             Controls.Add(txtSobrenome);
             Controls.Add(txtNome);
             Controls.Add(lblSobrenome);
             Controls.Add(lblNome);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FormCadastrarContato";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FormCadastrarContato";
             gbxTipoTelefone.ResumeLayout(false);
             gbxTipoTelefone.PerformLayout();
@@ -228,14 +233,14 @@
         private Label lblSobrenome;
         private TextBox txtNome;
         private TextBox txtSobrenome;
-        private Label label3;
+        private Label lblLinha1;
         private Label lblTelefone;
         private MaskedTextBox mkdTelefone;
         private GroupBox gbxTipoTelefone;
         private RadioButton rdbComercial;
         private RadioButton rdbPessoal;
         private RadioButton rdbRecado;
-        private Label label5;
+        private Label lbllinha2;
         private Label lblEmail;
         private TextBox txtEmail;
         private Button btnVoltar;
