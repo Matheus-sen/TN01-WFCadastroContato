@@ -70,14 +70,14 @@
             txtNome.Location = new Point(27, 51);
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(153, 23);
-            txtNome.TabIndex = 12;
+            txtNome.TabIndex = 0;
             // 
             // txtSobrenome
             // 
             txtSobrenome.Location = new Point(268, 51);
             txtSobrenome.Name = "txtSobrenome";
             txtSobrenome.Size = new Size(159, 23);
-            txtSobrenome.TabIndex = 3;
+            txtSobrenome.TabIndex = 1;
             // 
             // label3
             // 
@@ -102,7 +102,7 @@
             mkdTelefone.Mask = "(99) 00000-0000";
             mkdTelefone.Name = "mkdTelefone";
             mkdTelefone.Size = new Size(100, 23);
-            mkdTelefone.TabIndex = 6;
+            mkdTelefone.TabIndex = 2;
             mkdTelefone.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
             // 
             // gbxTipoTelefone
@@ -113,7 +113,7 @@
             gbxTipoTelefone.Location = new Point(168, 122);
             gbxTipoTelefone.Name = "gbxTipoTelefone";
             gbxTipoTelefone.Size = new Size(229, 55);
-            gbxTipoTelefone.TabIndex = 7;
+            gbxTipoTelefone.TabIndex = 4;
             gbxTipoTelefone.TabStop = false;
             gbxTipoTelefone.Text = "Tipo Telefone : ";
             // 
@@ -145,7 +145,7 @@
             rdbRecado.Location = new Point(161, 22);
             rdbRecado.Name = "rdbRecado";
             rdbRecado.Size = new Size(64, 19);
-            rdbRecado.TabIndex = 8;
+            rdbRecado.TabIndex = 2;
             rdbRecado.TabStop = true;
             rdbRecado.Text = "Recado";
             rdbRecado.UseVisualStyleBackColor = true;
@@ -172,14 +172,14 @@
             txtEmail.Location = new Point(26, 245);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(401, 23);
-            txtEmail.TabIndex = 11;
+            txtEmail.TabIndex = 5;
             // 
             // btnVoltar
             // 
             btnVoltar.Location = new Point(267, 329);
             btnVoltar.Name = "btnVoltar";
             btnVoltar.Size = new Size(75, 23);
-            btnVoltar.TabIndex = 13;
+            btnVoltar.TabIndex = 7;
             btnVoltar.Text = "Voltar";
             btnVoltar.UseVisualStyleBackColor = true;
             btnVoltar.Click += btnVoltar_Click;
@@ -189,7 +189,7 @@
             btnSalvar.Location = new Point(352, 329);
             btnSalvar.Name = "btnSalvar";
             btnSalvar.Size = new Size(75, 23);
-            btnSalvar.TabIndex = 14;
+            btnSalvar.TabIndex = 6;
             btnSalvar.Text = "Salvar";
             btnSalvar.UseVisualStyleBackColor = true;
             btnSalvar.Click += btnSalvar_Click;
@@ -198,7 +198,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(474, 450);
+            ClientSize = new Size(474, 388);
             Controls.Add(btnSalvar);
             Controls.Add(btnVoltar);
             Controls.Add(txtEmail);

@@ -43,7 +43,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { cadastrarToolStripMenuItem, sobreToolStripMenuItem, sairToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(557, 24);
+            menuStrip1.Size = new Size(461, 24);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -72,7 +72,7 @@
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(0, 27);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(557, 312);
+            pictureBox1.Size = new Size(461, 312);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -81,7 +81,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(557, 338);
+            ClientSize = new Size(461, 338);
             Controls.Add(pictureBox1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
