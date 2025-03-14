@@ -16,5 +16,9 @@ namespace TN01_WFPROFESSOR
         {
             InitializeComponent();
         }
+        private void FormListagem_Load(object sender, EventArgs e)
+        {
+            dgvListaContatos.DataSource = Contato.ListaContatos;
+        }
     }
 }

@@ -28,28 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dgvListagem = new DataGridView();
-            ((System.ComponentModel.ISupportInitialize)dgvListagem).BeginInit();
+            dgvListaContatos = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dgvListaContatos).BeginInit();
             SuspendLayout();
+            // 
+            // dgvListaContatos
+            // 
+            dgvListaContatos.Location = new Point(0, 0);
+            dgvListaContatos.Name = "dgvListaContatos";
+            dgvListaContatos.Size = new Size(607, 245);
+            dgvListaContatos.TabIndex = 0;
             // 
             // FormListagem
             // 
             AccessibleRole = AccessibleRole.None;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(581, 371);
-            Controls.Add(dgvListagem);
+            ClientSize = new Size(608, 244);
+            Controls.Add(dgvListaContatos);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FormListagem";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Listagem de Contatos";
-            ((System.ComponentModel.ISupportInitialize)dgvListagem).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvListaContatos).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private DataGridView dgvListagem;
+        private DataGridView dgvListaContatos;
     }
 }
