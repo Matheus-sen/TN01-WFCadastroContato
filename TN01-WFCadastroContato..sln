@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TN01-WFCadastroContato.", "..\TN01-WFCadastroContato\TN01-WFCadastroContato\TN01-WFCadastroContato..csproj", "{7913F248-872A-489C-9EA9-3736DA7ED727}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TN01-WFCadastroContato.", "TN01-WFCadastroContato\TN01-WFCadastroContato..csproj", "{7913F248-872A-489C-9EA9-3736DA7ED727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TN01-WFPROFESSOR", "TN01-WF PROFESSOR\TN01-WFPROFESSOR.csproj", "{B750F1CB-D7F3-4126-BB82-636B7CF481B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7913F248-872A-489C-9EA9-3736DA7ED727}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7913F248-872A-489C-9EA9-3736DA7ED727}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7913F248-872A-489C-9EA9-3736DA7ED727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B750F1CB-D7F3-4126-BB82-636B7CF481B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B750F1CB-D7F3-4126-BB82-636B7CF481B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B750F1CB-D7F3-4126-BB82-636B7CF481B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B750F1CB-D7F3-4126-BB82-636B7CF481B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
