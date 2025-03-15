@@ -20,5 +20,7 @@ namespace TN01_WFPROFESSOR
         {
             dgvListaContatos.DataSource = Contato.ListaContatos;
         }
+
+        
     }
 }

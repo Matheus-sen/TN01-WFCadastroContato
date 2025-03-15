@@ -34,9 +34,9 @@
             // 
             // dgvListaContatos
             // 
-            dgvListaContatos.Location = new Point(0, 0);
+            dgvListaContatos.Location = new Point(12, 12);
             dgvListaContatos.Name = "dgvListaContatos";
-            dgvListaContatos.Size = new Size(607, 245);
+            dgvListaContatos.Size = new Size(584, 220);
             dgvListaContatos.TabIndex = 0;
             // 
             // FormListagem
@@ -51,6 +51,7 @@
             Name = "FormListagem";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Listagem de Contatos";
+            Load += FormListagem_Load;
             ((System.ComponentModel.ISupportInitialize)dgvListaContatos).EndInit();
             ResumeLayout(false);
         }
