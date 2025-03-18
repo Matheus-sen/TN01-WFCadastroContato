@@ -81,6 +81,7 @@
             btnLogar.Text = "Logar";
             btnLogar.UseVisualStyleBackColor = true;
             btnLogar.Click += btnLogar_Click;
+            btnLogar.KeyDown += btnLogar_KeyDown;
             // 
             // FormLogin
             // 

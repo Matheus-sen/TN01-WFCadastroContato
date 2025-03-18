@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCadastro));
             btnCadastrar = new Button();
             lblSenhaNova = new Label();
             txtSenhaNova = new TextBox();
@@ -39,12 +40,15 @@
             // 
             // btnCadastrar
             // 
+            btnCadastrar.BackgroundImageLayout = ImageLayout.Zoom;
+            btnCadastrar.Image = (Image)resources.GetObject("btnCadastrar.Image");
             btnCadastrar.ImageAlign = ContentAlignment.MiddleLeft;
-            btnCadastrar.Location = new Point(119, 204);
+            btnCadastrar.Location = new Point(111, 211);
             btnCadastrar.Name = "btnCadastrar";
-            btnCadastrar.Size = new Size(75, 23);
-            btnCadastrar.TabIndex = 9;
+            btnCadastrar.Size = new Size(83, 29);
+            btnCadastrar.TabIndex = 3;
             btnCadastrar.Text = "Cadastrar";
+            btnCadastrar.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnCadastrar.UseVisualStyleBackColor = true;
             btnCadastrar.Click += btnCadastrar_Click;
             // 
@@ -64,7 +68,7 @@
             txtSenhaNova.PasswordChar = '*';
             txtSenhaNova.PlaceholderText = "Informe a Senha...";
             txtSenhaNova.Size = new Size(149, 23);
-            txtSenhaNova.TabIndex = 7;
+            txtSenhaNova.TabIndex = 1;
             // 
             // txtUsuarioNovo
             // 
@@ -72,7 +76,7 @@
             txtUsuarioNovo.Name = "txtUsuarioNovo";
             txtUsuarioNovo.PlaceholderText = "Informe o Usuário...";
             txtUsuarioNovo.Size = new Size(149, 23);
-            txtUsuarioNovo.TabIndex = 6;
+            txtUsuarioNovo.TabIndex = 0;
             // 
             // lblUsuarioNovo
             // 
@@ -99,7 +103,7 @@
             txtConfirmarSenha.PasswordChar = '*';
             txtConfirmarSenha.PlaceholderText = "Confirmar Senha...";
             txtConfirmarSenha.Size = new Size(149, 23);
-            txtConfirmarSenha.TabIndex = 10;
+            txtConfirmarSenha.TabIndex = 2;
             // 
             // FormCadastro
             // 

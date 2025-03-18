@@ -21,14 +21,6 @@ namespace WFUsandoListagem
             us1.Senha = "123456";
             us1.DataCadastro = Convert.ToDateTime("10/01/2025 18:30");
             Usuario.ListaUsuarios.Add(us1);
-
-            //us = new Usuario();
-            //us.Codigo = 2;
-            //us.Login = "user";
-            //us.Senha = "user";
-            //us.DataCadastro = Convert.ToDateTime("01/01/2010");
-            //Usuario.ListaUsuarios.Add(us);
-
         }
 
         private void btnLogar_Click(object sender, EventArgs e)
@@ -63,6 +55,15 @@ namespace WFUsandoListagem
             if (e.KeyCode == Keys.Enter)
             {
                 btnLogar_Click(sender, e);
+                txtUsuario.Focus();
+            }
+        }
+
+        private void btnLogar_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                txtUsuario.Focus();
             }
         }
     }

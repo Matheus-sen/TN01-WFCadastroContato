@@ -15,7 +15,7 @@ namespace WFUsandoListagem
             Senha = senha;
             DataCadastro = dataCadastro;
         }
-        public Usuario () { }
+        public Usuario() { }
 
         public static List<Usuario> ListaUsuarios = new List<Usuario>();
 
@@ -23,6 +23,6 @@ namespace WFUsandoListagem
         public string? Login { get; set; }
         public string? Senha { get; set; }
         public DateTime DataCadastro { get; set; }
+
     }
-   
 }
