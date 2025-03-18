@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TN01-WFPROFESSOR", "TN01-WF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFAcesso", "WFAcesso\WFAcesso.csproj", "{426DB685-2FA7-4ACC-8EC5-FDDE0CEC9640}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFUsandoListagem", "WFUsandoListagem\WFUsandoListagem.csproj", "{DB413B80-C7D6-4828-A5E9-F1F422F0ABF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{426DB685-2FA7-4ACC-8EC5-FDDE0CEC9640}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{426DB685-2FA7-4ACC-8EC5-FDDE0CEC9640}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{426DB685-2FA7-4ACC-8EC5-FDDE0CEC9640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB413B80-C7D6-4828-A5E9-F1F422F0ABF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB413B80-C7D6-4828-A5E9-F1F422F0ABF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB413B80-C7D6-4828-A5E9-F1F422F0ABF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB413B80-C7D6-4828-A5E9-F1F422F0ABF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
