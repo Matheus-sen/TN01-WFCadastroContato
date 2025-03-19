@@ -68,8 +68,8 @@ namespace WFCadastroProduto
 
             Produto.ListaProdutos.Add(prod);
 
-            FormListagem form = new FormListagem();
-            form.ShowDialog();
+            txtCodigo.Text = (Produto.ListaProdutos.Count + 1).ToString();
+
         }
 
         private void FormCadastro_Load(object sender, EventArgs e)
@@ -77,6 +77,7 @@ namespace WFCadastroProduto
             txtCodigo.Text = "00" + (Produto.ListaProdutos.Count + 1).ToString();
             txtCodigo.Enabled = false;
             cbxCategoria.SelectedIndex = 0;
+
         }
     }
 }
