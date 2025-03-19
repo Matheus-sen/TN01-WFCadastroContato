@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,15 @@ namespace WFCadastroProduto
         public FormCadastro()
         {
             InitializeComponent();
+        }
+
+        private void LimparFormulario()
+        {
+            cbxCategoria.SelectedIndex = 0;
+            txtNomeProduto.Clear();
+            nudPreco.Value = 0;
+            dtpDataValidade.Value = DateTime.Now; 
+            txtObservacao.Clear();
         }
 
         public void Erro(string mensagem)
@@ -68,7 +78,10 @@ namespace WFCadastroProduto
 
             Produto.ListaProdutos.Add(prod);
 
-            txtCodigo.Text = (Produto.ListaProdutos.Count + 1).ToString();
+            txtCodigo.Text = "00" + (Produto.ListaProdutos.Count + 1).ToString();
+
+            LimparFormulario();
+
 
         }
 
