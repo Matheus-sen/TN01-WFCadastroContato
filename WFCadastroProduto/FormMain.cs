@@ -20,7 +20,13 @@ namespace WFCadastroProduto
 
         private void sairToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult resposta = MessageBox.Show("Você deseja realmente sair?", "Question",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (resposta == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
 
         private void cadastrarToolStripMenuItem1_Click(object sender, EventArgs e)
