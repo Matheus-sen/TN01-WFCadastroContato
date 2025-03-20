@@ -34,8 +34,9 @@ namespace WFCadastroProdutoProfessor
 
         private void FormCadastroProduto_Load(object sender, EventArgs e)
         {
-            int totalLista = Produto.ObterLista().Count + 1;
-            mtbCodigo.Text = totalLista.ToString("D4");
+            int qtdeProdutos = Produto.ObterLista().Count;
+            int novoCodigo = qtdeProdutos + 1;
+            mtbCodigo.Text = novoCodigo.ToString("D4");
             dtpDataVencimento.Value = DateTime.Today;
         }
 
