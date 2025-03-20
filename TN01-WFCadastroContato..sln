@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1WFCadastrar", "WFCadastrar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2WFCadastroEndereco", "WFCadastroEndereco\2WFCadastroEndereco.csproj", "{CBD53ACD-E926-4D65-8740-1D21E8BA1F58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFCadastroProdutoProfessor", "WFCadastroProdutoProfessor\WFCadastroProdutoProfessor.csproj", "{28BFA291-6BF0-412B-A74B-BE71C44E0A2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{CBD53ACD-E926-4D65-8740-1D21E8BA1F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBD53ACD-E926-4D65-8740-1D21E8BA1F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBD53ACD-E926-4D65-8740-1D21E8BA1F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28BFA291-6BF0-412B-A74B-BE71C44E0A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BFA291-6BF0-412B-A74B-BE71C44E0A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BFA291-6BF0-412B-A74B-BE71C44E0A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BFA291-6BF0-412B-A74B-BE71C44E0A2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
